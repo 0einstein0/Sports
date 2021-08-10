@@ -3,28 +3,28 @@ body{
   background-color: 
   #212529;
   margin: 0;
-
+  overflow-x: hidden;
   font-family: Century Gothic, CenturyGothic, AppleGothic, sans-serif;
 }
 
 .des{
    width: 300px;
    position: relative;
-   top:70%;
+   top:20%;
    left:-50%;
 }
 
 .bg{
   background-image: url(/assets/bg.jpg);
   background-size: cover;
-  padding-top: 50px;
+ 
 
   
 }
 
 .overlay{
 background-color: #141414af;
-
+ padding-top: 100px;
 
 }
 
@@ -106,6 +106,7 @@ padding-top: 20%;
   left: 95%;
   transform: translate(-50%, -50%);
   top: 50%;
+  
   height: 300px;
   clip-path: circle(20px at center);
   transition: 0.5s;
@@ -157,3 +158,15 @@ opacity: 0;
  .rights {
      font-size: calc(10px + (12 - 10) * ((100vw - 360px) / (1600 - 360))) !important
  }
+
+ .crop {
+  width: 200px;
+  height: 150px;
+  overflow: hidden;
+}
+
+.crop img {
+  width: 300px;
+  height: 300px;
+  
+}
