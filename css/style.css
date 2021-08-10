@@ -1,0 +1,156 @@
+body{
+  
+  background-color: 
+  #212529;
+  margin: 0;
+
+  font-family: Century Gothic, CenturyGothic, AppleGothic, sans-serif;
+}
+
+.des{
+   width: 300px;
+   position: relative;
+   top:70%;
+   left:-50%;
+}
+
+.bg{
+  background-image: url(/assets/bg.jpg);
+  background-size: cover;
+  
+}
+
+.overlay{
+background-color: #141414af;
+
+}
+
+h1{
+	color: #ffff; 
+  margin-bottom: 40px;
+  height: 20px;
+  z-index: -1;
+	
+}
+.wrapper{
+  
+padding-top: 20%;
+}
+
+.Card {
+	width: 100px;
+  z-index: 1;
+  height: 300px;
+	position: relative;
+	left: 0;
+	right: 0;	
+	margin: auto;
+  transform: translate(-50%, -50%);
+  cursor: pointer;
+}
+.Card:hover h1 {
+  opacity: 0;
+}
+.Card:hover .image {
+  clip-path: circle(100px at center);
+}
+.Card:hover .Card-effect1 {
+  width: 200px;
+  height: 200px;
+  border-radius: 200px;
+}
+.Card:hover .Card-effect2 {
+  width: 200px;
+  height: 200px;
+  border-radius: 200px;
+  border: 80px solid #e6faff;
+  opacity: 0;
+}
+.Card:hover .desc{
+ 
+  opacity: 1;
+}
+
+.Card-effect1 {
+  position: absolute;
+  top: 50%;
+  left: 95%;
+  transform: translate(-50%, -50%);
+  background-color: #596061;
+  width: 40px;
+  height: 40px;
+  border-radius: 40px;
+  transition: 0.5s;
+  opacity: 0.2;
+}
+.Card-effect2 {
+  position: absolute;
+  top: 50%;
+ 
+  left: 95%;
+  transform: translate(-50%, -50%);
+  width: 0;
+  height: 0;
+  border-radius: 0;
+  transition: 0.7s;
+  border: 40px solid #0c7c80;
+  border-radius: 40px;
+  pointer-events: none;
+}
+.image {
+  position: fixed;
+  top: 50%;
+  left: 95%;
+  transform: translate(-50%, -50%);
+  top: 50%;
+  height: 300px;
+  clip-path: circle(20px at center);
+  transition: 0.5s;
+  pointer-events: none;
+}
+.desc {
+opacity: 0;
+}
+.desc:before {
+  content: '';
+  position: absolute;
+  width: 70%;
+  height: 2px;
+  background-color: #0e959e;
+  transition: 0.3s;
+  z-index: 2;
+}
+
+
+ .container-fluid {
+     overflow: hidden;
+     margin-top: 250px;
+    
+     color: #a7a7a7 !important;
+     margin-bottom: 0;
+     padding-bottom: 0
+ }
+
+ small {
+     font-size: calc(12px + (15 - 12) * ((100vw - 360px) / (1600 - 360))) !important
+ }
+
+ .bold-text {
+     color: #989c9e !important
+ }
+
+ .mt-55 {
+     margin-top: calc(50px + (60 - 50) * ((100vw - 360px) / (1600 - 360))) !important
+ }
+
+ h3 {
+     font-size: calc(34px + (40 - 34) * ((100vw - 360px) / (1600 - 360))) !important
+ }
+
+ .social {
+     font-size: 21px !important
+ }
+
+ .rights {
+     font-size: calc(10px + (12 - 10) * ((100vw - 360px) / (1600 - 360))) !important
+ }
