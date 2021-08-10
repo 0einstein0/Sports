@@ -17,11 +17,14 @@ body{
 .bg{
   background-image: url(/assets/bg.jpg);
   background-size: cover;
+  padding-top: 50px;
+
   
 }
 
 .overlay{
 background-color: #141414af;
+
 
 }
 
