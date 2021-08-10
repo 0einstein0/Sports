@@ -58,15 +58,15 @@ padding-top: 20%;
   clip-path: circle(100px at center);
 }
 .Card:hover .Card-effect1 {
-  width: 200px;
-  height: 200px;
+  width: 300px;
+  height: 300px;
   border-radius: 200px;
 }
 .Card:hover .Card-effect2 {
   width: 200px;
   height: 200px;
   border-radius: 200px;
-  border: 80px solid #e6faff;
+  border: 80px solid #428191;
   opacity: 0;
 }
 .Card:hover .desc{
@@ -79,24 +79,41 @@ padding-top: 20%;
   top: 50%;
   left: 95%;
   transform: translate(-50%, -50%);
-  background-color: #596061;
+  background-color: #bebebe;
   width: 40px;
   height: 40px;
   border-radius: 40px;
   transition: 0.5s;
   opacity: 0.2;
 }
+
+.Icon{
+  position: absolute;
+  top: 50%;
+  left: 95%;
+  transform: translate(-50%, -50%);
+  width: 100px;
+  height: 100px;
+  z-index: 3;
+  background-size: cover;
+  background-image: url("/assets/football.png");
+
+}
+
+.Card:hover .Icon{
+  opacity: 0;
+}
 .Card-effect2 {
   position: absolute;
   top: 50%;
- 
   left: 95%;
   transform: translate(-50%, -50%);
   width: 0;
   height: 0;
   border-radius: 0;
+
   transition: 0.7s;
-  border: 40px solid #0c7c80;
+  border: 40px solid #7a1212;
   border-radius: 40px;
   pointer-events: none;
 }
