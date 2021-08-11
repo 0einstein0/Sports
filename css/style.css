@@ -66,7 +66,7 @@ padding-top: 20%;
   width: 200px;
   height: 200px;
   border-radius: 200px;
-  border: 80px solid #428191;
+  border: 80px solid #914242;
   opacity: 0;
 }
 .Card:hover .desc{
@@ -137,7 +137,7 @@ opacity: 0;
   position: absolute;
   width: 70%;
   height: 2px;
-  background-color: #0e959e;
+  background-color: #9e900e;
   transition: 0.3s;
   z-index: 2;
 }
