@@ -97,7 +97,7 @@ padding-top: 20%;
   z-index: 3;
   background-size: cover;
   background-image: url("/assets/football.png");
-
+  opacity:0.78;
 }
 
 .Card:hover .Icon{
